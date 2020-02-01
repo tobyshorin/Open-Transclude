@@ -6,17 +6,9 @@ categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. <a name="jekyll-docs"></a> <!-- Note: it's best practice to put the <a> tag at the *end* of the preceding paragraph instead of on the paragraph with the text you're citing. This helps it show up in the proper spot in the iframe.  -->
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla, mauris id fringilla semper, ligula magna scelerisque eros, sit amet congue ipsum nisl in urna. Maecenas ultrices ut sem id egestas. Praesent egestas diam in lacus tempor accumsan. Vivamus ornare, neque vel feugiat varius, sem velit mattis eros, bibendum bibendum sapien sapien at urna. Etiam sagittis vel diam eget feugiat. Etiam vel odio ex. Aliquam felis massa, ultricies ac arcu vel, lacinia finibus felis. Nullam nibh libero, blandit sit amet porttitor sed, imperdiet sed eros. Duis quis nunc id risus pulvinar imperdiet. Pellentesque feugiat, eros a tempus laoreet, nibh elit aliquet leo, vel imperdiet nisi mi nec mauris. Curabitur diam nisi, mattis non commodo eget, sagittis id magna. Ut et tellus ex. Sed scelerisque, lacus non cursus pretium, sapien orci faucibus arcu, vel suscipit tellus massa tincidunt ligula. Integer condimentum libero velit, eget tempus mauris varius sed.
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
