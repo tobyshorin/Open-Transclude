@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 Here's an example of how OpenTransclude pulls in content from another page on this blog.
 
+<!-- NOTE: Add a spacing attribute with a number to override your default spacing unit for highlights (useful if you're using different text sizes or alternative styling on a post) -->
 {% include portal.html title="Welcome to Jekyll!" link="/Open-Transclude/jekyll/update/2020/01/31/welcome-to-jekyll.html#lorem-ipsum" anchor="jekyll-docs" %}
 
 <!-- NOTE: Remove '/Open-Transclude' from this to get it working locally. -->

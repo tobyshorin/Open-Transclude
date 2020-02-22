@@ -33,15 +33,15 @@ function linkFunction(link) {
         anchor.setAttribute('class', 'portal-quote-text');
         // get position of the anchor relative to the current scroll position
         var offset = anchor.getBoundingClientRect().top;
-        // replace this with your theme's default spacing unit
+        // NOTE: replace this with your theme's default spacing unit
         var spacing = 30
-        // checking to see if you wanted to override the spacing
+        // checks to see if you wanted to override the spacing
         {% if include.spacing %}
             var spacing = {{ include.spacing }}
         {% endif %}
         // if text is highlighted, center it
         if (anchor.innerHTML && anchor.innerHTML !== "") {
-            offset = offset - 30 * 3;
+            offset = offset - (spacing * 3);
         };
         // jump scroll the iframe content to the anchor
         frame.contentWindow.scrollBy(0, offset);
