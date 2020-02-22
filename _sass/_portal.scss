@@ -106,7 +106,7 @@ iframe{
 	background-color: #C2DFE3;
 	color: lighten($text-color, 15%);
 
-	// This fixes hovers behaving wrong on safari
+	// This fixes hovers behaving wrong on safari when using an <a> tag to highlight
 	&:hover {
 		text-decoration: none;
 	}
