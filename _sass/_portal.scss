@@ -96,3 +96,18 @@ iframe{
 		}
 	}
 }
+
+// Things that happen in the iframe have to be applied to the whole site,
+// as you can't use css on iframe contents – not a major issue for the time being,
+// considering you have to own the site you're transcluding.
+// Make sure your theme's anchor text styling explicitly hits a:link and not all a tags to avoid 
+// making quoted text look like a link.
+.portal-quote-text {
+	background-color: #C2DFE3;
+	color: lighten($text-color, 15%);
+
+	// This fixes hovers behaving wrong on safari when using an <a> tag to highlight
+	&:hover {
+		text-decoration: none;
+	}
+}			
