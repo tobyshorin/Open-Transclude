@@ -1,7 +1,13 @@
 # Open-Transclude
 Cite yourself with iframe-based transclusions.
 
-# License
+# Updates
+**Update 3/5/2020**
+GitHub user @rcrdlbl (on twitter, [in_mcdonalds](https://twitter.com/in_mcdonalds)) has implemented quote highlighting! Now use `<span>` instead of `<a>` to select the text you want to quote in your blog post.
+
+---
+
+### License
 Copyright (c) 2020 Toby Shorin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,7 +27,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-# Updates
-**Update 3/5/2020**
-GitHub user @rcrdlbl (on twitter, [in_mcdonalds](https://twitter.com/in_mcdonalds)) has implemented quote highlighting! Now use `<span>` instead of `<a>` to select the text you want to quote in your blog post.
